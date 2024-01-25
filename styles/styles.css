@@ -1,0 +1,153 @@
+header {
+    background-color: #161a30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+  }
+  
+  header h1 {
+    color: #fffefd;
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  header span {
+    color: #fffefd;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  
+  .contenedor {
+    background-color: #b6bbc4;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .sobreMi {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #161a30;
+  }
+  
+  .hrBlack {
+    border-color: black;
+  }
+  
+  .contenedorTecnologiasActividades {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tecnoFavoritas {
+    width: 50%;
+  }
+  
+  #htmlCssJs {
+    width: 100%;
+  }
+  
+  .actiFavoritas {
+    width: 50%;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 2px solid #161a30;
+    padding: 30px;
+    position: relative;
+    left: 90px;
+    border-radius: 20px;
+    margin: 40px 0px 0px 0px;
+  }
+  
+  .form label {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #161a30;
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    margin-bottom: 20px;
+  }
+  
+  .form textarea {
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #b7eeaa;
+    margin-bottom: 10px;
+    background-color: rgb(5, 98, 5);
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    left: 38%;
+    border-radius: 25px;
+  }
+  
+  .contenedorTarjetas {
+    background-color: #161a30;
+    margin: 20px;
+    color: #fffefd;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 30px;
+    border-radius: 30px;
+  }
+  
+  .tarjeta {
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 40px 10px 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tarjeta img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tarjeta {
+    padding: 16px;
+  }
+  
+  .tarjeta h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+  
+  .tarjeta p {
+    font-size: 1em;
+    color: #b2b1b1;
+  }
+  
+  .organizadorTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer {
+    display: grid;
+    background-color: #b2b1b1;
+    text-align: center;
+    height: 50px;
+  }
+
+  .foot_txt{
+    margin: auto;
+    font-size: larger;
+    font-weight: bold;
+  }
